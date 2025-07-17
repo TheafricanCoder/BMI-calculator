@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #8f6c6c;
+    color: white;
+  }
+  
+  .thetitle {
+    text-align: center;
+    font-size: 2.5em;
+    padding: 20px 0;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    color: rgb(0, 217, 255);
+  }
+  
+  .articleaboutbmi {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    background: rgba(158, 68, 68, 0.507);
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  .content{
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    background: rgba(158, 68, 68, 0.507);
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  
+  .calculator input, .calculator button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 7px;
+  }
+  
+  .calculator {
+    background: rgb(99, 52, 52);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .result {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .bmitable {
+    margin-top: 40px;
+  }
+  
+  .bmicat {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .bmicat th, .bmicat td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .bmicat th {
+    background-color: #834444;
+    font-weight: bold;
+  }
+button{
+    cursor: pointer;
+    
+}
